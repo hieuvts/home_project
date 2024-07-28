@@ -53,3 +53,15 @@ prod.telemetry.ros.rockstargames.com # Games: GTA V
 tracking.epicgames.com # 2FA Auth, Purchase game
 tracking-protection.cdn.mozilla.net # Firefox update trackers list
 gdlp01.c-wss.com # Cannon printer firmware updates
+# 28/07/2024
+*.admin.sothuchi.vn # Misa
+*.telemetry.api.swiftkey.com
+*.asianload.info # RMS
+*.asianimg.pro # RMS
+*.ebed.dm-event.net # Dailymotion
+*.pebed.dm-event.net
+0.gravatar.com^$important
+account-api.protonmail.com^$important
+*.izatcloud.net^
+analytics.samsungknox.com^$important
+self.events.data.microsoft.com^$important
