@@ -1,7 +1,6 @@
 cdnjs.buymeacoffee.com
 accounts.scdn.co
 accounts.soundcloud.com
-accounts.spotify.com
 accounts.youtube.com
 img.x.soundcloud.com
 img.xda-developers.com
@@ -13,8 +12,10 @@ music.xbox.com
 music.youtube.com
 s.youtube.com
 s.ytimg.com
-s.youtube.com # Unblock youtube watch history
-s2.youtube.com # Unblock youtube watch history
+s.youtube.com                           # Unblock youtube watch history
+s2.youtube.com                          # Unblock youtube watch history
+suggestqueries-clients6.youtube.com     # Search suggestion
+clients1.google.com     # Search suggestion
 video-stats.l.google.com # Unblock youtube watch history
 oauthaccountmanager.googleapis.com # Unblock Youtube on iOS
 reminders-pa.googleapis.com 
@@ -42,15 +43,25 @@ v20.events.data.microsoft.com
 activity.windows.com # Electronic Art on Xbox
 device.auth.xboxlive.com # Xbox auth
 officeclient.microsoft.com # MS Office clients
-spclient.wg.spotify.com # Apple - Spotify
-apresolve.spotify.com
+accounts.spotify.com                # Spotify
+spclient.wg.spotify.com             
+apresolve.spotify.com               
 api-tv.spotify.com
+ap-gue1.spotify.com
+guc3-spclient.spotify.com
+seeded-session-images.scdn.co       # Spotify - Breaks playback
+ap-gae2.spotify.com                 # Spotify - Breaks playback
+seektables.scdn.co
+gue1-spclient.spotify.com     
 dl.dropboxusercontent.com # Fix: Dropbox batch files download
 ns1.dropbox.com
 ns2.dropbox.com
+nsf-2.dropbox.com # Breaks sync
 gfwsl.geforce.com # NVIDIA GeForce update driver
 prod.telemetry.ros.rockstargames.com # Games: GTA V
-tracking.epicgames.com # 2FA Auth, Purchase game
+tracking.epicgames.com                              #Epic Games Launcher   
+eulatracking-public-service-prod.ak.epicgames.com   #Epic Games Launcher   Breaks game downloads
+eulatracking-public-service-prod06.ol.epicgames.com #Epic Games Launcher   Breaks game downloads
 tracking-protection.cdn.mozilla.net # Firefox update trackers list
 gdlp01.c-wss.com # Cannon printer firmware updates
 # 28/07/2024
@@ -65,3 +76,26 @@ account-api.protonmail.com^$important
 *.izatcloud.net^
 analytics.samsungknox.com^$important
 self.events.data.microsoft.com^$important
+prod.mobile.roku.com                   #Roku Remote   Video Browser
+rights-manager.sr.roku.com             #Roku Remote   Videos
+vod.delivery.roku.com                  #Roku Remote   Videos
+wv.service.expressplay.com             #Roku Remote   Videos
+sf-api-token-service.itunes.apple.com  #Shazam        Won't submit audio sample
+gapi.waze.com                          #Wayze         Search for address
+cache-cms-ext-us.battle.net
+blocklist.addons.mozilla.org           #Firefox       Extensions
+time.windows.com
+eus.client.hip.live.com                #MS - Captcha
+scu.client.hip.live.com                #MS - Captcha
+ncu.client.hip.live.com                #MS - Captcha
+wus.client.hip.live.com                #MS - Captcha
+wdcp.microsoft.com                     #MS - Defender Update
+storecatalogrevocation.storequality.microsoft.com
+api.checkout.com                       #Shopping Sites (Breaks Online Payments)
+checkout.shopifycs.com                 #Shopping Sites (Breaks Checkout) *Shopify
+deposit.us.shopifycs.com               #Shopping Sites (Breaks Checkout) *Shopify
+webto.salesforce.com                   #Marketing - Can't send support request
+fevoke-windowsservices-tas.msedge.net  #App    Candy Crush Saga (Updates)
+privatehd.to	# P2P
+avistaz.to	# P2P
+1337x.to	# P2P
