@@ -56,4 +56,6 @@
 ||debet.*^
 ||rfgrupo.com^
 ||advertising.yahoo.com^
-||www.adtech.yahooinc.com^
+||adtech.yahooinc.com^
+||zu69.love^
+||tinhotvn.online^
