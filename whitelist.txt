@@ -95,9 +95,9 @@ blocklist.addons.mozilla.org           #Firefox       Extensions
 @@||deposit.us.shopifycs.com^               #Shopping Sites (Breaks Checkout) *Shopify
 @@||webto.salesforce.com^                   #Marketing - Can't send support request
 @@||fevoke-windowsservices-tas.msedge.net  #App    Candy Crush Saga (Updates)
-@@||privatehd.to^	# P2P
-@@||avistaz.to^	# P2P
-@@||1337x.to^	# P2P
+@@||privatehd.to^$important	# P2P
+@@||avistaz.to^$important	# P2P
+@@||1337x.to^$important	# P2P
 @@||email.docker.com^
 @@||email.microsoft*.com^
 @@||wl.spotify.com^
