@@ -59,3 +59,6 @@
 ||adtech.yahooinc.com^
 ||zu69.love^
 ||tinhotvn.online^
+# Found in InstaPro (Sammod)
+||aistekso.net^
+||sammods.github.io^
