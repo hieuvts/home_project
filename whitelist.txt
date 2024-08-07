@@ -1,4 +1,10 @@
+# P2P
+@@||privatehd.to^
+@@||avistaz.to^
+@@||1337x.to^
+@@||email.docker.com^
 @@||myrunningman.com^$important
+# End P2P
 @@||click.redditmail.com^$important
 @@||cdnjs.buymeacoffee.com^
 @@||accounts.scdn.co^
@@ -11,100 +17,104 @@
 @@||music.samsung.com^
 @@||music.twitch.tv^
 @@||music.xbox.com^
+# Youtube
 @@||music.youtube.com^
 @@||s.youtube.com^
 @@||s.ytimg.com^
-@@||s.youtube.com^                           # Unblock youtube watch history
-@@||s2.youtube.com^                          # Unblock youtube watch history
-@@||suggestqueries-clients6.youtube.com^     # Search suggestion
-@@||clients1.google.com^     # Search suggestion
-@@||video-stats.l.google.com^ # Unblock youtube watch history
-@@||oauthaccountmanager.googleapis.com^ # Unblock Youtube on iOS
-@@||reminders-pa.googleapis.com^ 
-@@||firestore.googleapis.com^ # Google keep
+@@||s.youtube.com^ 
+@@||s2.youtube.com^
 @@||tv.youtube.com^
-@@||steamcontent.com^
-@@||steamserver.net^
-@@||storage.live.com^
-@@||storage.msn.com^
-@@||img.lazcdn.com^
-@@||g.lazcdn.com^
-@@||api.locketcamera.com^
+@@||suggestqueries-clients6.youtube.com^
+# Google
 @@||clients2.google.com^
 @@||clients4.google.com^
-@@||msftconnecttest.com^ # MS Connection check
-ipv6.msftncsi.com
-dl.delivery.mp.microsoft.com # MS Store
-geo-prod.do.dsp.mp.microsoft.com
-displaycatalog.mp.microsoft.com
-v10.events.data.microsoft.com # Xbox Live Achievements (confirmed by Microsoft)
-v20.events.data.microsoft.com
-activity.windows.com # Electronic Art on Xbox
-device.auth.xboxlive.com # Xbox auth
-officeclient.microsoft.com # MS Office clients
-accounts.spotify.com                # Spotify
-spclient.wg.spotify.com             
-apresolve.spotify.com               
-api-tv.spotify.com
-ap-gue1.spotify.com
-guc3-spclient.spotify.com
-seeded-session-images.scdn.co       # Spotify - Breaks playback
-ap-gae2.spotify.com                 # Spotify - Breaks playback
-seektables.scdn.co
-gue1-spclient.spotify.com     
-dl.dropboxusercontent.com # Fix: Dropbox batch files download
-@@||ns1.dropbox.com^
-@@||ns2.dropbox.com^
-@@||nsf-2.dropbox.com^ # Breaks sync
-gfwsl.geforce.com # NVIDIA GeForce update driver
-prod.telemetry.ros.rockstargames.com # Games: GTA V
-@@||tracking.epicgames.com^                           #Epic Games Launcher   
-eulatracking-public-service-prod.ak.epicgames.com   #Epic Games Launcher   Breaks game downloads
-eulatracking-public-service-prod06.ol.epicgames.com #Epic Games Launcher   Breaks game downloads
-tracking-protection.cdn.mozilla.net # Firefox update trackers list
-gdlp01.c-wss.com # Cannon printer firmware updates
-# 28/07/2024
-@@||admin.sothuchi.vn^ # Misa
-@@||telemetry.api.swiftkey.com^
-@@||asianload.info^ # RMS
-@@||asianimg.pro^ # RMS
-@@||ebed.dm-event.net^ # Dailymotion
-@@||pebed.dm-event.net^
-0.gravatar.com^
-@@||account-api.protonmail.com^
-@@||izatcloud.net^
-@@||analytics.samsungknox.com^
+@@||firestore.googleapis.com^
+@@||video-stats.l.google.com^
+@@||clients1.google.com^
+@@||reminders-pa.googleapis.com^
+@@||oauthaccountmanager.googleapis.com^
+# MS
+@@||storage.live.com^
+@@||storage.msn.com^
+@@||msftconnecttest.com^
+@@||gfwsl.geforce.com^
 @@||self.events.data.microsoft.com^
-prod.mobile.roku.com                   #Roku Remote   Video Browser
-rights-manager.sr.roku.com             #Roku Remote   Videos
-vod.delivery.roku.com                  #Roku Remote   Videos
-wv.service.expressplay.com             #Roku Remote   Videos
-sf-api-token-service.itunes.apple.com  #Shazam        Won't submit audio sample
-@@||gapi.waze.com^                        #Wayze         Search for address
-cache-cms-ext-us.battle.net
-blocklist.addons.mozilla.org           #Firefox       Extensions
 @@||time.windows.com^
-@@||eus.client.hip.live.com^                #MS - Captcha
-@@||scu.client.hip.live.com^                #MS - Captcha
-@@||ncu.client.hip.live.com^                #MS - Captcha
-@@||wus.client.hip.live.com^                #MS - Captcha
-@@||wdcp.microsoft.com^                     #MS - Defender Update
+@@||eus.client.hip.live.com^
+@@||scu.client.hip.live.com^
+@@||ncu.client.hip.live.com^
+@@||wus.client.hip.live.com^
+@@||wdcp.microsoft.com^
 @@||storecatalogrevocation.storequality.microsoft.com^
-@@||api.checkout.com^                       #Shopping Sites (Breaks Online Payments)
-@@||checkout.shopifycs.com^                 #Shopping Sites (Breaks Checkout) *Shopify
-@@||deposit.us.shopifycs.com^               #Shopping Sites (Breaks Checkout) *Shopify
-@@||webto.salesforce.com^                   #Marketing - Can't send support request
-@@||fevoke-windowsservices-tas.msedge.net  #App    Candy Crush Saga (Updates)
-@@||privatehd.to^	# P2P
-@@||avistaz.to^	# P2P
-@@||1337x.to^	# P2P
-@@||email.docker.com^
-@@||email.microsoft*.com^
-@@||wl.spotify.com^
-@@||open.spotify.com^
-@@||email.uber.com^
+@@||fevoke-windowsservices-tas.msedge.net^
 @@||engage.windows.com^
 @@||engage.xbox.com^
-@@||cxlick.zoom.us^
-@@||click*.taobao.com^
+@@||email.microsoft*.com^
+@@||activity.windows.com^
+@@||device.auth.xboxlive.com^
+@@||dl.delivery.mp.microsoft.com^
+@@||ipv6.msftncsi.com^
+@@||geo-prod.do.dsp.mp.microsoft.com^
+@@||displaycatalog.mp.microsoft.com^
+@@||officeclient.microsoft.com^
+# Samsung
+@@||analytics.samsungknox.com^
+# Apple
+@@||sf-api-token-service.itunes.apple.com^
+# Spotify
+@@||wl.spotify.com^
+@@||open.spotify.com^
+@@||gue1-spclient.spotify.com^
+@@||ap-gae2.spotify.com^
+@@||api-tv.spotify.com^
+@@||accounts.spotify.com^
+@@||spclient.wg.spotify.com^
+@@||apresolve.spotify.com^
+@@||ap-gue1.spotify.com^
+@@||guc3-spclient.spotify.co^
+@@||seeded-session-images.scdn.co^
+@@||seektables.scdn.co^
+@@||i.scdn.co^
+# Gaming
+@@||steamcontent.com^
+@@||steamserver.net^
+@@||tracking.epicgames.com^
+@@||prod.telemetry.ros.rockstargames.com^
+@@||eulatracking-public-service-prod.ak.epicgames.com^
+@@||eulatracking-public-service-prod06.ol.epicgames.com^
+@@||cache-cms-ext-us.battle.net^
+# Storage services
+@@||ns1.dropbox.com^
+@@||ns2.dropbox.com^
+@@||dl.dropboxusercontent.com^
+@@||nsf-2.dropbox.com^
 @@||mediafire.com^
+# Shopping
+@@||img.lazcdn.com^
+@@||g.lazcdn.com^
+@@||api.checkout.com^
+@@||checkout.shopifycs.com^
+@@||deposit.us.shopifycs.com^
+@@||click*.taobao.com^
+# Others
+@@||0.gravatar.com^
+@@||api.locketcamera.com^
+@@||gdlp01.c-wss.com^
+@@||admin.sothuchi.vn^
+@@||telemetry.api.swiftkey.com^
+@@||asianload.info^
+@@||asianimg.pro^
+@@||ebed.dm-event.net^
+@@||pebed.dm-event.net^
+@@||account-api.protonmail.com^
+@@||izatcloud.net^
+@@||email.docker.com^
+@@||email.uber.com^
+@@||cxlick.zoom.us^
+@@||webto.salesforce.com^
+@@||blocklist.addons.mozilla.org^
+@@||gapi.waze.com^
+@@||prod.mobile.roku.com^
+@@||rights-manager.sr.roku.com^
+@@||vod.delivery.roku.com^
+@@||wv.service.expressplay.com^
