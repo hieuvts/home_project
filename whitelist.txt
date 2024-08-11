@@ -96,6 +96,8 @@
 @@||checkout.shopifycs.com^
 @@||deposit.us.shopifycs.com^
 @@||click*.taobao.com^
+# Found while browsing
+@@||imasdk.googleapis.com^ # Breaks video player
 # Others
 @@||0.gravatar.com^
 @@||api.locketcamera.com^

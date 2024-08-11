@@ -45,9 +45,6 @@
 ||events.gfe.nvidia.com^$important
 ||phimmoiz.pro^ # Redirect Shopee
 ||go.mnaspm.com^
-||da88.com^
-||fabet.com^
-||lucky88.com^
 ||reviewphim.pro^
 ||tinvui24h.com^
 ||khophim.website^
@@ -59,6 +56,18 @@
 ||adtech.yahooinc.com^
 ||zu69.love^
 ||tinhotvn.online^
+||reviewfilm.jpgfast.xyz^
+||phimhots.life^
+||fbwatch.top^
+||fucoidan.space^
+||topgirl.online^
+/dienmayxanh[-a-z0-9]+\.com/
+# Bet
+||da88.com^
+||fabet.com^
+||lucky88.com^
+||7fn99.com^
+||lucky823.com^
 # Found in InstaPro (Sammod)
 ||aistekso.net^
 ||sammods.github.io^
