@@ -15,9 +15,7 @@
 ||viettelkhuyenmai.vn
 ||vienthongviettel.com.vn^
 ||simdataviettel.com^
-||snaptube.dev^ # APK Malware
-||ytddownloader.com^ # Redirect to many sites
-||static.snaptube.in^$important
+||dichvudidong.vn^
 ||app-analytics.snapchat.com^
 ||leanplum.com^
 ||amazon-adsystem.com^
@@ -62,6 +60,57 @@
 ||fucoidan.space^
 ||topgirl.online^
 /dienmayxanh[-a-z0-9]+\.com/
+||taodep.net^
+||taodep.com^
+||tinnong.pro^
+||zutube.pro^
+||baomoidkt.online^
+||tinhotnhat.pro^
+||thethao.gg^
+||807mm.live^
+||pt777g.com^
+||s.net.vn^
+||ok999.me^
+||www-fb.com^
+||tinnhanh.pro^
+||alertreal.com^
+||iwinclub.*^
+||gameiwin.io^
+||xef.vn^
+||taigameiwins.net^
+||phims.info^
+||loramen.*^
+||dgn.vn^
+||webphim69.info^
+||phimpro.live^
+||megalink.pro^
+||inote.pro^
+||phimnew.live^
+||gojoin.online^
+||joingc.fun|
+||yukichat.fun^
+||eshare.fun^
+||ln.run^
+||gcgrup.fun^
+||s.id^
+||hongkong90s.com^
+||redr.me^
+||bom.so^
+# APK 
+||snaptube.dev^ # APK Malware
+||ytddownloader.com^ # Redirect to many sites
+||static.snaptube.in^$important
+||apkmody.com^
+||gamehayvl.com^
+||happymod.com^
+||allmodapk.de^
+||modyolo.com^
+||apkdone.com^
+||platinmods.com^
+||dlmod.com^
+||yeuapk.*^
+||apkpond.com^
+||ffh4x.vip^
 # Bet
 ||da88.com^
 ||fabet.com^
