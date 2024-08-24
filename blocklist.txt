@@ -96,6 +96,24 @@
 ||hongkong90s.com^
 ||redr.me^
 ||bom.so^
+||garffield.site^
+||phim5zzz.*^
+||clip-hot.live^
+||vntvmedia.org^
+||vn07.cc^
+||app79.cc^
+||89a.app^
+||vietgcv.cc^
+||hdtinchap.com^
+||dancuso.com^
+||hhlpa.com^
+||vdbank.com.vn^
+||vietcombanker.com^
+||nangcuc.tv^
+||stfly.biz^
+||linkxemphimzzz.space^
+||getrunkhomuto.info^
+||dongnai60.site^
 # APK 
 ||snaptube.dev^ # APK Malware
 ||ytddownloader.com^ # Redirect to many sites
@@ -117,6 +135,13 @@
 ||lucky88.com^
 ||7fn99.com^
 ||lucky823.com^
+||onbet888.com^
+||onbet.*^
+||on-bet.*^
 # Found in InstaPro (Sammod)
 ||aistekso.net^
 ||sammods.github.io^
+# Found on FB News groups
+||avast-securedownload.com^
+||bitdefender-app.com^
+||malwarebytes.pro^
