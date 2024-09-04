@@ -114,6 +114,12 @@
 ||linkxemphimzzz.space^
 ||getrunkhomuto.info^
 ||dongnai60.site^
+||phimhayxxs.online^
+||phimtn.pro^
+||phimfullhdz.pro^
+||phimreviewhay.pro^
+||phimtonghop.pro^
+||tinhot247.online^
 # APK 
 ||snaptube.dev^ # APK Malware
 ||ytddownloader.com^ # Redirect to many sites
@@ -138,6 +144,7 @@
 ||onbet888.com^
 ||onbet.*^
 ||on-bet.*^
+||68gamewin33.*^
 # Found in InstaPro (Sammod)
 ||aistekso.net^
 ||sammods.github.io^
