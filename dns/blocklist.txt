@@ -120,6 +120,9 @@
 ||phimreviewhay.pro^
 ||phimtonghop.pro^
 ||tinhot247.online^
+||hdzonline.pro^
+||phimnett.life^
+||kubank.club^
 # APK 
 ||snaptube.dev^ # APK Malware
 ||ytddownloader.com^ # Redirect to many sites
@@ -135,6 +138,8 @@
 ||yeuapk.*^
 ||apkpond.com^
 ||ffh4x.vip^
+||stripchatgirls.com^
+||loanpari.com^
 # Bet
 ||da88.com^
 ||fabet.com^
