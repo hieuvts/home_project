@@ -21,18 +21,26 @@
 @@||music.youtube.com^
 @@||s.youtube.com^
 @@||s.ytimg.com^
-@@||s.youtube.com^ 
 @@||s2.youtube.com^
 @@||tv.youtube.com^
 @@||suggestqueries-clients6.youtube.com^
+@@||i.ytimg.com^
+@@||i1.ytimg.com^
+@@||youtube-nocookie.com^
 # Google
+@@||clients1.google.com^
 @@||clients2.google.com^
+@@||clients3.google.com^
 @@||clients4.google.com^
+@@||clients5.google.com^
+@@||clients6.google.com^
 @@||firestore.googleapis.com^
 @@||video-stats.l.google.com^
-@@||clients1.google.com^
 @@||reminders-pa.googleapis.com^
 @@||oauthaccountmanager.googleapis.com^
+@@||cse.google.com^
+@@||manifest.googlevideo.com^
+@@||video-stats.l.google.com^
 # MS
 @@||storage.live.com^
 @@||storage.msn.com^
@@ -61,6 +69,16 @@
 @@||analytics.samsungknox.com^
 # Apple
 @@||sf-api-token-service.itunes.apple.com^
+@@||gdmf.apple.com.akadns.net^
+@@||itunes.com^
+@@||mzstatic.com^
+@@||iphone-ld.origin-apple.com.akadns.net^
+@@||ax.phobos.apple.com.edgesuite.net^
+@@||init-p01md-lb.push-apple.com.akadns.net^
+@@||uts-api-cdn.itunes-apple.com.akadns.net^
+@@||np-edge-cdn.itunes-apple.com.akadns.net^
+@@||iadsdk.apple.com.akadns.net^
+@@||play.itunes.apple.com.edgesuite.net^
 # Spotify
 @@||wl.spotify.com^
 @@||open.spotify.com^
@@ -121,3 +139,29 @@
 @@||vod.delivery.roku.com^
 @@||wv.service.expressplay.com^
 @@||android-developers.googleblog.com^
+# Plex
+@@||app.plex.tv^
+@@||cpms.spop10.ams.plex.bz^
+@@||cpms35.spop10.ams.plex.bz^
+@@||dashboard.plex.tv^
+@@||meta-db-worker02.pop.ric.plex.bz^
+@@||meta.plex.bz^
+@@||meta.plex.tv^
+@@||my.plexapp.com^
+@@||nine.plugins.plexapp.com^
+@@||node.plexapp.com^
+@@||o1.email.plex.tv^
+@@||o2.sg0.plex.tv^
+@@||proxy.plex.bz^
+@@||proxy.plex.tv^
+@@||proxy02.pop.ord.plex.bz^
+@@||pubsub.plex.bz^
+@@||pubsub.plex.tv^
+@@||staging.plex.tv^
+@@||status.plex.tv^
+@@||tvdb2.plex.tv^
+@@||tvthemes.plexapp.com^
+# Malwarebytes Anti-Malware
+@@||keystone.mwbsys.com^
+# JW Player
+@@||ssl.p.jwpcdn.com^
