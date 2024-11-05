@@ -114,6 +114,10 @@
 @@||checkout.shopifycs.com^
 @@||deposit.us.shopifycs.com^
 @@||click*.taobao.com^
+@@||c-api-bit.shopeemobile.com^
+@@||api.airpayservice.com^
+@@||api.gw.airpay.vn^
+@@||wsa.spm.shopee.vn^
 # Found while browsing
 @@||imasdk.googleapis.com^ # Breaks video player
 # Others
