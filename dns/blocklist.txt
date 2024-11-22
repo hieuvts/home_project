@@ -143,6 +143,8 @@
 ||px300.site^
 ||love678zzz.live^
 ||seo18s.com^
+||mangtac.com^
+||crizonshop.com^
 # Bet
 ||da88.com^
 ||fabet.com^
@@ -153,6 +155,9 @@
 ||onbet.*^
 ||on-bet.*^
 ||68gamewin33.*^
+||sin88.*^
+||kliptech.com^
+||neteretournepas.com^
 # Found in InstaPro (Sammod)
 ||aistekso.net^
 ||sammods.github.io^
@@ -163,3 +168,4 @@
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
+||telergaomqqq.top^
