@@ -123,6 +123,8 @@
 ||hdzonline.pro^
 ||phimnett.life^
 ||kubank.club^
+||klingxai.com^
+||topstreamstv.live^
 # APK 
 ||snaptube.dev^ # APK Malware
 ||ytddownloader.com^ # Redirect to many sites
