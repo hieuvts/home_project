@@ -118,6 +118,7 @@
 @@||api.airpayservice.com^
 @@||api.gw.airpay.vn^
 @@||wsa.spm.shopee.vn^
+@@||app2.jeoway.net^
 # Found while browsing
 @@||imasdk.googleapis.com^ # Breaks video player
 # Others
