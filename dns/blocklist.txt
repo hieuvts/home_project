@@ -147,6 +147,8 @@
 ||seo18s.com^
 ||mangtac.com^
 ||crizonshop.com^
+||mangtac.com^
+||saygai.net^
 # Bet
 ||da88.com^
 ||fabet.com^
