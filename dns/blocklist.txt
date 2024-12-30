@@ -132,6 +132,9 @@
 ||apkmody.com^
 ||gamehayvl.com^
 ||happymod.com^
+||happymod.en^
+||happymod.en.uptodown.com^
+||vneid.vi.uptodown.com^
 ||allmodapk.de^
 ||modyolo.com^
 ||apkdone.com^
@@ -149,6 +152,32 @@
 ||crizonshop.com^
 ||mangtac.com^
 ||saygai.net^
+||an1.com^
+||modder.me^
+||apkcrack.net^
+||rexdl.com^
+||getmodsapk.cc^
+||rifqimulyawan.com^
+||vgdl.ir^
+||softwarepk.com^
+||capcutmodapk.id^
+||capcutpremium.com^
+||capckutapk.com^
+||thecapcutmod.pro^
+||caapcutapk.com^
+||picsartmodapk.io^
+||ios.codevn.net^
+||tiktikpro.com^
+||tiktikpremium.com^
+||gocmod.com^
+||gamedva.com^
+||modder.me^
+||modded-1.com^
+||modsmaniac.com^
+||greenapk.me^
+||gomodapk.com^
+||apkappto.com^
+||fatcatapk.com^
 # Bet
 ||da88.com^
 ||fabet.com^
@@ -170,6 +199,13 @@
 ||avast-securedownload.com^
 ||bitdefender-app.com^
 ||malwarebytes.pro^
+||new-sub.com^
+||wanflixhd.site^
+||videotoico.com^
+||phimtoico.com^
+||tintoico.com^
+||loclipnong.com^
+||dongtoico.us^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
@@ -181,3 +217,18 @@
 ||dragoncapital.mobi^
 ||dragooncapital.com^
 ||samsungsecure.com^
+# Native tracker
+||collector.azure.cn^
+||in.applicationinsights.azure.cn^
+||dc.applicationinsights.azure.cn^
+||events.data.msn.cn^
+||browser.events.data.msn.cn^
+||js.monitor.azure.com.com^
+||analytics.live.com^
+||digg.analytics.live.com^
+||ms.analytics.live.com^
+||analyticspixel.microsoft.com^
+||analytics.pstnhub.microsoft.com^
+||chinaeast2-0.in.applicationinsights.azure.cn^
+||chinaeast3-global.in.applicationinsights.azure.cn^
+||chinanorth3-0.in.applicationinsights.azure.cn^

@@ -60,11 +60,18 @@
 @@||email.microsoft*.com^
 @@||activity.windows.com^
 @@||device.auth.xboxlive.com^
+@@||title.auth.xboxlive.com^
+@@||cert.mgt.xboxlive.com^
 @@||dl.delivery.mp.microsoft.com^
 @@||ipv6.msftncsi.com^
 @@||geo-prod.do.dsp.mp.microsoft.com^
 @@||displaycatalog.mp.microsoft.com^
 @@||officeclient.microsoft.com^
+# Signal
+@@||chat.signal.org^
+@@||contentproxy.signal.org^
+@@||ud-chat.signal.org^
+@@||updates2.signal.org^
 # Samsung
 @@||analytics.samsungknox.com^
 # Apple
@@ -79,6 +86,8 @@
 @@||np-edge-cdn.itunes-apple.com.akadns.net^
 @@||iadsdk.apple.com.akadns.net^
 @@||play.itunes.apple.com.edgesuite.net^
+@@||icloud.com^
+@@||mzstatic.com^
 # Spotify
 @@||wl.spotify.com^
 @@||open.spotify.com^
@@ -171,4 +180,8 @@
 # JW Player
 @@||ssl.p.jwpcdn.com^
 # Monitoring 
-@@||stats.grafana.org
+@@||stats.grafana.org^
+# GTA Online telemetry
+@@||prod.telemetry.ros.rockstargames.com^
+# AliExpress
+@@||ae01.alicdn.com^
