@@ -206,6 +206,7 @@
 ||tintoico.com^
 ||loclipnong.com^
 ||dongtoico.us^
+||phiimhay.pro^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
@@ -217,6 +218,9 @@
 ||dragoncapital.mobi^
 ||dragooncapital.com^
 ||samsungsecure.com^
+||maxsecurityultimate.com^
+||yutubee.pro^
+||newsallq.com^
 # Native tracker
 ||collector.azure.cn^
 ||in.applicationinsights.azure.cn^
