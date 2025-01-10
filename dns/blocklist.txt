@@ -207,6 +207,14 @@
 ||loclipnong.com^
 ||dongtoico.us^
 ||phiimhay.pro^
+||kenhtina.com^
+||tinhay8.com^
+||blogtin.news^
+||blogtin.org^
+||fleuri.info^
+||giadinhlaso1.net^
+||newsonline.biz^
+||libgenesis.net^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
