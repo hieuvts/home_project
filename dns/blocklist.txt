@@ -215,6 +215,7 @@
 ||giadinhlaso1.net^
 ||newsonline.biz^
 ||libgenesis.net^
+||casio-store.shop^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
