@@ -2,6 +2,7 @@
 ||shbet9.com^$important
 ||shbet.ai^$important
 ||mb666.online^$important
+||az888sl.com^
 ||viettelnet.com.vn^
 ||4gviettelshop.vn^ ! Scam dang ky ho goi cuoc
 ||4g-viettel.vn^
@@ -10,11 +11,9 @@
 ||dangkymang.vn^
 ||vietteldata.vn^
 ||simdataviettel.com^
-||4g5gviettel.net^
 ||tongdaiviettelhcm.net^
 ||viettelkhuyenmai.vn
 ||vienthongviettel.com.vn^
-||simdataviettel.com^
 ||dichvudidong.vn^
 ||app-analytics.snapchat.com^
 ||leanplum.com^
@@ -150,10 +149,8 @@
 ||seo18s.com^
 ||mangtac.com^
 ||crizonshop.com^
-||mangtac.com^
 ||saygai.net^
 ||an1.com^
-||modder.me^
 ||apkcrack.net^
 ||rexdl.com^
 ||getmodsapk.cc^
@@ -216,6 +213,9 @@
 ||newsonline.biz^
 ||libgenesis.net^
 ||casio-store.shop^
+||anhkhuewatch.com^
+||dailytin24.com^
+||trangtin35.com^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
