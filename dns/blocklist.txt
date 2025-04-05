@@ -15,6 +15,7 @@
 ||viettelkhuyenmai.vn
 ||vienthongviettel.com.vn^
 ||dichvudidong.vn^
+||goicuocviettel.xyz^
 ||app-analytics.snapchat.com^
 ||leanplum.com^
 ||amazon-adsystem.com^
@@ -124,6 +125,9 @@
 ||kubank.club^
 ||klingxai.com^
 ||topstreamstv.live^
+||gochongphot.pro^
+||thichxemtintuc.pro^
+||rfa.org^
 # APK 
 ||snaptube.dev^ # APK Malware
 ||ytddownloader.com^ # Redirect to many sites
@@ -216,6 +220,8 @@
 ||anhkhuewatch.com^
 ||dailytin24.com^
 ||trangtin35.com^
+||xemlasuongg.life^
+||vnsupplements.vn^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
