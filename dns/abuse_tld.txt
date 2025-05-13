@@ -52,6 +52,8 @@
 ||*.giving^
 ||*.loan^
 ||*.loans^
+||*.locker^
+||*.miami^
 ||*.non^
 ||*.okinawa^
 ||*.xn--p1acf^

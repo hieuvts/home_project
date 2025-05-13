@@ -19,6 +19,30 @@
 ||app-analytics.snapchat.com^
 ||leanplum.com^
 ||amazon-adsystem.com^
+||aax-eu.amazon-adsystem.com^
+||advertising.a2z.com^
+||advertising.amazon.ae^
+||advertising.amazon.ca^
+||advertising.amazon.co.jp^
+||advertising.amazon.com^
+||advertising.amazon.com.au^
+||advertising.amazon.com.br^
+||advertising.amazon.com.mx^
+||advertising.amazon.com.tr^
+||advertising.amazon.co.uk^
+||advertising.amazon.de^
+||advertising.amazon.dev^
+||advertising.amazon.eg^
+||advertising.amazon.es^
+||advertising.amazon.fr^
+||advertising.amazon.in^
+||advertising.amazon.it^
+||advertising.amazon.nl^
+||advertising.amazon.sa^
+||aes.ap-southeast.3px.axp.amazon-adsystem.com^
+||sa-east-1-1.telemetry.insights.video.a2z.com^
+||sa-east-1-2.telemetry.insights.video.a2z.com^
+||sa-east-1-3.telemetry.insights.video.a2z.com^
 ||config.ioam.de
 ||de.ioam.de^
 ||secure-eu.imrworldwide.com^
@@ -26,7 +50,6 @@
 ||tracksrv.zdf.de^
 ||settings.crashlytics.com^
 ||notify.firetv.bugsnag.appstore.a2z.com^
-||aax-eu.amazon-adsystem.com^
 ||tracuutthvt.com^$important^
 ||api.cloud.tenda.com.cn^$important
 ||bzib.nelreports.net^$important
@@ -41,7 +64,6 @@
 ||waterfilter.in.ua^
 ||fancug.com^
 ||events.gfe.nvidia.com^$important
-||phimmoiz.pro^ # Redirect Shopee
 ||go.mnaspm.com^
 ||reviewphim.pro^
 ||tinvui24h.com^
@@ -128,12 +150,35 @@
 ||gochongphot.pro^
 ||thichxemtintuc.pro^
 ||rfa.org^
+||smo99.com^
+||12betpro.com^
+||ale6789.com^
+||7ball.in^
+||cmd368.cm^
+||nhacaidk8.net^
+||debet.top^
+||fi889.com^
+||giaitriluke.com^
+||livecasinohvn.com^
+||tf388.net^
+||tt128.net^
+||zbetvn.com^
+||zbetvn.club^
+||123b01.com^
+||90phutsj.cc^
+||8x6700.com^
+||jun88qa.com^
+||cadac.uk.com^
+||office6.uk.com^
+||app88.live^
+||new8855.pro^
 # APK 
 ||snaptube.dev^ # APK Malware
 ||ytddownloader.com^ # Redirect to many sites
 ||static.snaptube.in^$important
 ||apkmody.com^
 ||gamehayvl.com^
+||gamehayvl.me^
 ||happymod.com^
 ||happymod.en^
 ||happymod.en.uptodown.com^
@@ -179,6 +224,8 @@
 ||gomodapk.com^
 ||apkappto.com^
 ||fatcatapk.com^
+||hackerbot.net^
+||apkgw.com^
 # Bet
 ||da88.com^
 ||fabet.com^
@@ -222,6 +269,12 @@
 ||trangtin35.com^
 ||xemlasuongg.life^
 ||vnsupplements.vn^
+||honghot.click^
+||honghotduongpho.io.vn^
+||vebo.tv^
+||thapcam.tv^
+||banhkhuc.tv^
+||playrik88.pro^
 # Phising
 ||zaloweb.vn^
 ||zaloweb.me^
@@ -251,3 +304,27 @@
 ||chinaeast2-0.in.applicationinsights.azure.cn^
 ||chinaeast3-global.in.applicationinsights.azure.cn^
 ||chinanorth3-0.in.applicationinsights.azure.cn^
+||ab.apple.com.akadns.net^
+||cstat-lb.apple.com.akadns.net^
+||diagassets-lb.apple.com.akadns.net^
+||diagnostics.apple.com.akadns.net^
+||iadcontent-lb.apple.com.akadns.net^
+||iadsdk.apple.com.akadns.net^
+||idiagnostics.apple.com.akadns.net^
+||iphonesubmissions.apple.com.akadns.net^
+||radarsubmissions.apple.com.akadns.net^
+||securemetrics.apple.com^
+||experiments.apple.com.edgekey.net^
+# Adult
+||pheclip.co^
+||pheclip.pro^
+||pheclipvn.com^
+||xnhau.im^
+||sieudam.tv^
+||sieudam.blog^
+||chich69.blog^
+||lonxxx.com^
+# Redirect Shopee
+||phimmoiz.pro^ 
+||goeco.mobi^
+||rebrand.ly^

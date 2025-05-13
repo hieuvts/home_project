@@ -153,6 +153,8 @@
 @@||vod.delivery.roku.com^
 @@||wv.service.expressplay.com^
 @@||android-developers.googleblog.com^
+@@||amzn.asia^
+@@||phishing.army^
 # Plex
 @@||app.plex.tv^
 @@||cpms.spop10.ams.plex.bz^
