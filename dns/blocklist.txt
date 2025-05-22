@@ -240,6 +240,7 @@
 ||kliptech.com^
 ||neteretournepas.com^
 ||/.*bet88.*/
+||28bet.games^
 # Found in InstaPro (Sammod)
 ||aistekso.net^
 ||sammods.github.io^
