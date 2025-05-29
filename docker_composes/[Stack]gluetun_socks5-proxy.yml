@@ -1,0 +1,62 @@
+---
+services:
+  gluetun:
+    image: qmcgaw/gluetun
+    # line above must be uncommented to allow external containers to connect.
+    # See https://github.com/qdm12/gluetun-wiki/blob/main/setup/connect-a-container-to-gluetun.md#external-container-to-gluetun
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    ports:
+      - <host_port>:<proxy_port>/tcp # HTTP proxy make sure to map with <proxy_port>
+      - <host_port>:<socks_port>/tcp # Socks5 make sure to map with <socks_port>
+      - <host_port>:80/tcp # speedtest-tracker web interface run default on port 80
+    volumes:
+      - /home/docker/gluetun/gluetun_cfg:/gluetun
+    environment:
+      # See https://github.com/qdm12/gluetun-wiki/tree/main/setup#setup
+      - VPN_SERVICE_PROVIDER=protonvpn
+      - VPN_TYPE=wireguard
+      # Wireguard:
+      - WIREGUARD_PRIVATE_KEY=
+      - WIREGUARD_ADDRESSES=
+      - SERVER_COUNTRIES=
+      # Timezone for accurate log times
+      - TZ=
+      # Internal proxy
+      - HTTPPROXY=on
+      - HTTPPROXY_LOG=on
+      - HTTPPROXY_LISTENING_ADDRESS=:<proxy_port> # Must include the colon
+      - HTTPPROXY_USER=<user_name>
+      - HTTPPROXY_PASSWORD=<proxy_port>
+  sock5:
+    image: serjs/go-socks5-proxy:latest
+    container_name: go-socks5
+    network_mode: "service:gluetun"
+    environment:
+      - PROXY_USER=<user_name>
+      - PROXY_PASSWORD=<password>
+      - PROXY_PORT=<socks_port>
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://ip.me"]
+      interval: 30s
+      timeout: 15s
+      start_period: 60s
+      retries: 20
+  # https://docs.speedtest-tracker.dev/getting-started/installation/using-docker-compose
+  speedtest-tracker:
+    image: lscr.io/linuxserver/speedtest-tracker:latest
+    container_name: speedtest-tracker
+    network_mode: "service:gluetun"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - SPEEDTEST_SCHEDULE=0 */12 * * *
+      - TZ=
+      - DB_CONNECTION=sqlite
+      - APP_KEY= # Run echo -n 'base64:'; openssl rand -base64 32; then paste it here
+    volumes:
+      - /home/docker/gluetun/st_cfg:/config
+    restart: unless-stopped
