@@ -1,0 +1,150 @@
+#
+# WARNING: Make sure to use the docker-compose.yml of the current release:
+#
+# https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml
+#
+# The compose file on main may not be compatible with the latest release.
+#
+
+
+name: immich
+services:
+  ts-immich:
+    image: tailscale/tailscale:latest
+    container_name: ts-immich
+    hostname: ts-immich
+    environment: # Docs: https://tailscale.com/kb/1453/quick-guide-docker
+      - TS_AUTHKEY=<required>
+      - TS_EXTRA_ARGS=--advertise-tags=tag:container
+      - TS_STATE_DIR=/var/lib/tailscale
+      - TS_USERSPACE=false
+      - TS_ENABLE_METRICS=true
+    cap_add:
+    - net_admin
+    ports:
+      - '127.0.0.1:5283:2283' # Only allow direct access on local host
+    volumes:
+      - ./ts-immich/state:/var/lib/tailscale
+    restart: always
+  immich-server:
+    container_name: immich_server
+    runtime: nvidia
+    image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
+    volumes:
+      - ${UPLOAD_LOCATION}:/usr/src/app/upload
+      - /etc/localtime:/etc/localtime:ro
+      - "F:/Takeouts/Google_Photos:/mnt/google_takeout"     # Remove if don't need to use "External Library"
+      - "F:/Takeouts/iclouds/photos:/mnt/icloud_takeout"
+      - "F:/Takeouts/Onedrive_Photos:/mnt/onedrive_takeout"
+    env_file:
+      - .env
+    # Port are openned on Tailscale, no need to define here
+    # ports:
+    #   - '127.0.0.1:5283:2283' # See line 25
+    depends_on:
+      - redis
+      - database
+      - ts-immich
+    network_mode: service:ts-immich
+    deploy:
+      resources:
+        limits: # Simulate low-end hardware device
+          cpus: "2.00"
+          memory: "2G"
+    restart: always
+    healthcheck:
+      disable: false
+
+  immich-machine-learning:
+    container_name: immich_machine_learning
+    runtime: nvidia
+    # For hardware acceleration, add one of -[armnn, cuda, openvino] to the image tag.
+    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}-cuda
+    # extends: # uncomment this section for hardware acceleration - see https://immich.app/docs/features/ml-hardware-acceleration
+    extends: # share common configurations among different files, or even different projects entirely
+      file: ./hwaccel.ml.yml
+      service: cuda
+    volumes:
+      - model-cache:/cache
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits: # Simulate low-end hardware device
+          cpus: "2.00"
+          memory: "1G"
+    restart: always
+    healthcheck:
+      disable: false
+
+  redis:
+    container_name: immich_redis
+    image: docker.io/valkey/valkey:8-bookworm
+    healthcheck:
+      test: redis-cli ping || exit 1
+    deploy:
+      resources:
+        limits: # Simulate low-end hardware device
+          cpus: "1.00"
+          memory: "1G"
+    restart: always
+
+  database:
+    container_name: immich_postgres
+    image: ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_DB: ${DB_DATABASE_NAME}
+      POSTGRES_INITDB_ARGS: '--data-checksums'
+      DB_STORAGE_TYPE: 'HDD' # Avaialble value: ['HDD', 'SSD']
+    volumes:
+      - ${DB_DATA_LOCATION}:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits: # Simulate low-end hardware device
+          cpus: "2.00"
+          memory: "0.5G"
+    restart: always
+
+  # --- MONITORING ---  
+  immich-prometheus:
+    container_name: immich_prometheus
+    image: prom/prometheus
+    ports:
+      # this exposes the default port for Prometheus so you can interact with it
+      - '127.0.0.1:3008:9090'
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: always
+  immich-grafana:
+    container_name: immich_grafana
+    image: grafana/grafana
+    command: ['./run.sh', '-disable-reporting'] # disable Grafana's telemetry
+    ports:
+      - '127.0.0.1:3009:3000' # Web Interface
+    volumes:
+      # stores your pretty dashboards and panels
+      - grafana-data:/var/lib/grafana
+    restart: always
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    hostname: cadvisor
+    volumes: # If you installed Docker Desktop with WSl2, below path will be accessed inside WSl2
+        - /:/rootfs:ro
+        - /var/run:/var/run:ro
+        - /sys:/sys:ro
+        - /var/lib/docker/:/var/lib/docker:ro
+        - /dev/disk/:/dev/disk:ro
+    ports:
+        - 3010:8080
+    container_name: cadvisor
+    privileged: true
+    devices:
+        - /dev/kmsg
+    restart: always
+volumes:
+  model-cache:
+  pgdata:
+  prometheus-data:
+  grafana-data:
