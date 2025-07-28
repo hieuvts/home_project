@@ -4,8 +4,8 @@ services:
     container_name: jellyfin
     runtime: nvidia
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=1001 # Run with user
+      - PGID=1001
       - TZ=Asia/Singapore
       - JELLYFIN_PublishedServerUrl=http://192.168.1.1 #optional
       - NVIDIA_VISIBLE_DEVICES=all
