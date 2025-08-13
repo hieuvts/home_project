@@ -41,6 +41,10 @@
 @@||cse.google.com^
 @@||manifest.googlevideo.com^
 @@||video-stats.l.google.com^
+@@||gstaticadssl.l.google.com^ # Google Fonts
+@@||googleapis.l.google.com^ # iOS Gmail
+@@||redirector.gvt1.com # Android TV
+@@||dl.google.com^ # Google Chrome (to update on ubuntu)
 # MS
 @@||storage.live.com^
 @@||storage.msn.com^
@@ -67,6 +71,10 @@
 @@||geo-prod.do.dsp.mp.microsoft.com^
 @@||displaycatalog.mp.microsoft.com^
 @@||officeclient.microsoft.com^
+@@||clientconfig.passport.net^
+@@||v10.vortex-win.data.microsoft.com^
+@@||v10c.vortex-win.data.microsoft.com^
+@@||v20.vortex-win.data.microsoft.com^
 # Signal
 @@||chat.signal.org^
 @@||contentproxy.signal.org^
